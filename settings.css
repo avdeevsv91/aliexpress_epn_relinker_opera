@@ -1,0 +1,137 @@
+﻿/*
+ =========================================================================
+ == AliExpress reLinker (ePN)                                           ==
+ == Automatic replacement of links to ePN DeepLink for AliExpress.      ==
+ == Author: Sergey Avdeev                                               ==
+ == E-Mail: avdeevsv91@gmail.com                                        ==
+ == URL: https://github.com/avdeevsv91/aliexpress_epn_relinker_opera    ==
+ =========================================================================
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+}
+
+body {
+	background: #F3F3FF;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: table;
+}
+
+#cell{
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 50px;
+}
+
+#logo {
+	width:400px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#logo font {
+	padding-left: 5px;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: bold;
+	color: #506070;
+}
+
+#version {
+	font-size: 10px !important;
+	float: right;
+	padding-right: 65px;
+	position: relative;
+    top: -15px;
+}
+
+#saved {
+	display: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3c763d;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	padding: 15px 7px;
+	width:300px;
+	border: 2px solid #F3F3FF;
+	border-radius: 20px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#cee0c7));
+	-webkit-box-shadow: 0px 0px 9px #888F99;
+}
+
+#main {
+	margin: 10px auto;
+	padding: 15px 7px;
+	width:300px;
+	border: 2px solid #F3F3FF;
+	border-radius: 20px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D7DCEE), to(#B3BBD5));
+	-webkit-box-shadow: 0px 0px 9px #888F99;
+}
+
+input, select {
+	display: block;
+	width: 270px;
+	margin: 5px 0px 15px 10px;
+	padding: 2px 4px 2px 4px;
+	background: #F3F3FF;
+	background: -webkit-gradient(linear, left top, right bottom, from(#F3F3FF), to(#E7F0F6));
+	-webkit-box-shadow: 0px 0px 2px #FFF;
+	border: 1px solid #A5B0C9;
+	border-radius: 6px;
+	color: #808090;
+	outline: none;
+	font-size: 14px;
+}
+
+input[type=checkbox] {
+    float: left;
+	width: auto;
+}
+
+label.checkbox_label {
+	display: table-caption;
+	margin-bottom: 15px;
+	width: 270px;
+}
+
+input[type=submit] {
+	width:120px;
+	margin: 5px auto 0 90px;
+	cursor: pointer;
+}
+
+input:focus, select:focus {
+	border: 1px solid #808090;
+	color: #506070;
+}
+
+input:hover, select:hover {
+	background: #FFF;
+}
+
+label {
+	font-size: 15px;
+	font-weight: bold;
+	color: #506070;
+	margin: 0 0 0 10px;
+}
+
+#copyright {
+	width:400px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	color: #506070;
+}
